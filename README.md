@@ -20,6 +20,9 @@ To use the new version, in your project where you import this library, use:
 1. `npm view @5daigle/react-basics version` or pluralise `version(s)` to get a list of all versions available.
 2. `npm install @5daigle/react-basics@VERSION_NUMBER`
 
+Peer dependencies
+* DO NOT ADD REACT into the peer deps, or storybook won't work.
+* Typescript is not needed as a peer dep.
 
 Sources: 
 * Create a TypeScript React library: 
