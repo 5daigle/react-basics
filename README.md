@@ -1,4 +1,6 @@
 # react-basics
+Installation
+Untill storybook works with react 18, use `npm install --legacy-peer-deps`
 
 Objectives:
 * Gather all the commonly used components (buttons, selects, etc) in a single library.
