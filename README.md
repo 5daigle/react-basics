@@ -28,12 +28,3 @@ Sources:
 * Create a TypeScript React library: 
   * https://dev.to/alexeagleson/how-to-create-and-publish-a-react-component-library-2oe
   * https://www.smashingmagazine.com/2020/09/component-library-react-emotion/
-
-
-- Add Tests and storybook from first link
-- Copy storybook settings from Oli
-- Add emotion in peerDependencies, set emotion with second link
-- Use emotion to style the components by following the second link
-- Create a version 1.0.1 by following the first link
-- Test the import in Oli
-
