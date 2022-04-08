@@ -4,15 +4,16 @@ export interface ButtonProps {
   label: string;
 }
 
-const color = 'darkgreen'
-const style = css`
-background-color: hotpink;
-&:hover {
-  color: ${color};
-}
-`
-
 const Button = (props: ButtonProps) => {
+
+  const color = 'darkgreen'
+  
+  const style = css`
+  background-color: hotpink;
+  &:hover {
+    color: ${color};
+  }
+  `
   return (
   <button css={style}>
     {props.label}
